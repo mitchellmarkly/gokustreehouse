@@ -28,9 +28,6 @@ body {
     gap: 50px;
 }
 
-.linktree div:apps {
-    margin-top: 100px;
-}
 .linktree img {
     width: 100px;
     height: 100px;
