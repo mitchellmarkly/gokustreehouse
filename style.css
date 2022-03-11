@@ -1,4 +1,13 @@
-div {
+body {
     color: white;
     background-color: black;
+}
+.icon {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.welcome {
+    display: inline-block;
 }
