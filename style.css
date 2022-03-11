@@ -11,3 +11,13 @@ body {
 .header div {
     border: 4px solid brown;
 }
+.linktree {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.linktree div {
+    border: 4px solid brown;
+    margin: 100px;
+    padding: 25px;
+}
