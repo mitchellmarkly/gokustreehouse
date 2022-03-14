@@ -1,7 +1,9 @@
-const intro = document.querySelector('#intro');
+const intro = document.getElementById("intro");
 
-const content = document.createElement('div');
-content.classList.add('content');
-content.textContent = 'Welcome to the Treehouse!';
+const introContainer = document.createElement("span");
+const introText = document.createTextNode("Welcome to the Treehouse!");
 
-intro.appendChild(content);
+introContainer.appendChild(introText);
+introContainer.style.color = 'yellow';
+
+intro.appendChild(introContainer);
